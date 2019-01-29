@@ -70,7 +70,7 @@ def pick_word():
         words = string.split()
     r = random.randrange(0, len(words))
     item = words[r]
-    print(item)
+    # print(item)
     return item
 
 while True:
